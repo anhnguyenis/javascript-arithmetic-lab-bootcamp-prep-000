@@ -14,12 +14,10 @@ function divide(a,b) {
   return a/=b;
 }
 
-var n = 783;
 function inc(n) {
-  return n++;
+  return ++n;
 }
 
-var n = 6;
 function dec(n) {
-  return n--;
+  return --n;
 }
