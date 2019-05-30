@@ -22,11 +22,7 @@ function dec(n) {
   return --n;
 }
 
-function makeInt(n) {
-  return parseInt(n);
+function makeInt(n,base) {
+  return parseInt(n,base);
 }
 
-function makeInt(n, 10) {
-  var parsed = parseInt(n, 10);
-  return parsed * 100;
-}
